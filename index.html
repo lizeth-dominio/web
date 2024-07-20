@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="images/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>estrena las mejoras prendas</p>
+                <a href="#" class="btn-1">informacion</a>
+           </div>
+        </div>
+
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f1.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 1</h3>
+                <a href="#" class="btn-2">informacion</a>
+
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f2.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 2</h3>
+                <a href="#" class="btn-2">informacion</a>
+
+            </div>
+        </div>
+       <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f3.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 3</h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+
+        <h2>Productos</h2>
+
+        <div class="product-content">
+            <div class="product">
+                <img src="images/1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Gown new design</h3>
+                    <p>Color Mint </p>
+                    <p class="precio">$600</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>XI Mode</h3>
+                    <p>Color Purple</p>
+                    <p class="precio">$400</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+           </div>
+
+            <div class="product">
+                <img src="images/3.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Chic Evening Dress</h3>
+                    <p>Color Turquoise</p>
+                    <p class="precio">$500</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+           </div>
+
+            <div class="product">
+                <img src="images/4.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Wedding Guest</h3>
+                    <p>Color Dark Blue</p>
+                    <p class="precio">$700</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/5.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Dresses</h3>
+                    <p>Color Vino</p>
+                    <p class="precio">$600</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+           </div>
+
+           <div class="product">
+            <img src="images/6.jpg" alt="">
+            <div class="product-txt">
+                <h3>For Every</h3>
+                <p>Color Light Pink</p>
+                <p class="precio">$1000</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+            </div>
+           </div>
+
+        </div>
+ </main>
+
+<section class="icons container">
+
+    <div class="icon-1">
+        <div class="icon-img">
+            <img src="images/i1.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3> Tienda online </h3>
+            <p>
+                El precio se olvida la calidad se recuerda.
+            </p>
+        </div>
+    </div>
+    <div class="icon-1">
+        <div class="icon-img">
+            <img src="images/i2.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3> Pago seguro </h3>
+            <p>
+                Tus compras con Tarjetas, Yape, BVA 100% seguras.
+            </p>
+        </div>
+    </div>
+    <div class="icon-1">
+        <div class="icon-img">
+            <img src="images/i3.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3> Envios gratis </h3>
+            <p>
+                Envios GRATIS para todo en Perú
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="blog container">
+        
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>Accesorios</h3>
+            <p>
+                Ningun outfit puede estar completo sin 
+                accesorios que lo complementen y lo 
+                vuelvan perfecto.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b2.jpg" alt="">
+            <h3>Shirt y Zapatos elegantes</h3>
+            <p>
+                Descubre el poder de la elegancia
+                haciendo una declaracion con tu propio estilo
+                transformando tu vestuario, la comodidad
+                en cada detalle.
+
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b3.jpg" alt="">
+            <h3>Shirt Elegante</h3>
+            <p>
+                La elegancia de un hombre esta en la seriedad
+                de su boda, con Shirt Elegante cada uno brilla a su 
+                manera.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#">Envios Cambios</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Pago Seguro</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Productos</h3>
+                <ul>
+                    <li><a href="#">Aviso Legal</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Mi Cuenta </h3>
+                <ul>
+                    <li><a href="#">Informacion Personal</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Direcciones</a></li>
+                    <li><a href="#">Cupones de Descuento/a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Tienda Online</h3>
+                <ul>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Zapatos</a></li>
+                    <li><a href="#">Accesorios y Carteras</a></li>
+                    <li><a href="#">Otros</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="scrip.js"></script>
+</body>
+</html>
